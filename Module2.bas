@@ -578,7 +578,7 @@ Sub Miseenpagevariant()
     Selection.AutoFilter
     ' Coller la formule en S4
     ws.Range("T4").Activate
-    ActiveCell.FormulaR1C1 = "=IF(OR(RC[-11]<100, ISNUMBER(SEARCH(""x"", RC[-17])), ISNUMBER(SEARCH(""y"", RC[-17]))), ""oui"", """")"
+    ActiveCell.FormulaR1C1 = "=IF(OR(RC[-11]<100, ISNUMBER(SEARCH(""y"", RC[-17]))), ""oui"", """")"
     ' Étendre la formule jusqu'à la dernière ligne
     ws.Range("T4:T" & lastRow).FillDown
     ActiveSheet.Range("$A$3:$T$" & lastRow).AutoFilter Field:=20, Criteria1:="oui"
@@ -780,6 +780,4 @@ End Sub
 
 
 
-X     @þEi  @7Oi  {.@iø  ˜¿z®­   ­à¾Wø   
-,Vi  dêVi   ,Vi  `–z®­           .@iø  ð&=-i     i                   Y u   G o t h i c   U I   S e m i l i g h t                          à     ^     @þEi  @7Oi  {.@iø  ˜¿z®­   ­à¾Wø   
-,Vi  dêVi   ,Vi  `–z®­           .@iø  ð&=-i     i                    Cy; à¾ƒ=i   î;9i                                  
+                                      ÿÿ     ÿÿÿÿ                *  *Ty< €¥ÈNi  °õœ@i  4pÄSi  ®×ai  `–z®­           .@iø  ð&=-i     i                   Y u   G o t h i c   U I   S e m i l i g h t                          à     ^     @ˆýai  @7Oi  {.@iø  ˜¿z®­   ­à¾Wø   ²×ai  4pÄSi  ®×ai  `–z®­           .@iø  ð&=-i     i                    Cy<  ),bi  °¨09i    ÂSi                         
